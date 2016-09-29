@@ -1,0 +1,12 @@
+<body></body>
+<script>
+	setInterval(() => {
+		const gif = parseInt(Math.random() * 8) + 1;
+		document.body.style.backgroundImage = "url("+gif+".gif)";
+	}, 2000);
+</script>
+<style>
+	body {
+		background-size: 100% 100%;
+	}
+</style>
